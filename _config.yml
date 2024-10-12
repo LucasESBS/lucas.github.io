@@ -1,8 +1,8 @@
 # Site settings
 title: Lucas Seninge
 description: "Machine Learning Scientist @ NewLimit"
-baseurl: "" # for test: remove string '/space-jekyll-template' to ''
-url: "" # for test: remove string 'http://victorvoid.github.io' to '' but in production: 'https://yourusername.github.io'
+baseurl: "/lucas.github.io" # for test: remove string '/space-jekyll-template' to ''
+url: "https://lucas.github.io" # for test: remove string 'http://victorvoid.github.io' to '' but in production: 'https://yourusername.github.io'
 
 # User settings
 username: Latent Space Walk
