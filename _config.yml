@@ -1,19 +1,19 @@
 # Site settings
-title: Lorem Ipsum - Web Developer
-description: "A blog about lorem ipsum ..."
-baseurl: "/space-jekyll-template" # for test: remove string '/space-jekyll-template' to ''
-url: "http://victorvoid.github.io/space-jekyll-template/" # for test: remove string 'http://victorvoid.github.io' to '' but in production: 'https://yourusername.github.io'
+title: Lucas Seninge
+description: "Machine Learning Scientist @ NewLimit"
+baseurl: "" # for test: remove string '/space-jekyll-template' to ''
+url: "" # for test: remove string 'http://victorvoid.github.io' to '' but in production: 'https://yourusername.github.io'
 
 # User settings
-username: lorem ipsum
-user_title: Lorem Ipsum - FrontEnd
-email: lorem.lorem@ipsum.com
+username: Latent Space Walk
+user_title: LucasESBS
+email: lucas.seninge@gmail.com
 twitter_username: loremipsum
-github_username:  loremipsum
+github_username:  LucasESBS
 discord_invite: cj5rg # Example: Discord server invite gg extension like in 'https://discord.gg/cj5rg'
-linkedin_public_url: loremipsum # Example: For public profile 'www.linkedin.com/in/john-smith', 'john-smith' is your linkedin_public_url
+linkedin_public_url: seningelucas # Example: For public profile 'www.linkedin.com/in/john-smith', 'john-smith' is your linkedin_public_url
 disqus_username: loremipsum
-profile_picture: https://68.media.tumblr.com/93f384858e9273d5b980b418e2f2f4d5/tumblr_o5i2aybLJG1uapsfmo2_250.png
+profile_picture: https://avatars.githubusercontent.com/u/26789402?s=400&u=ddf1301ec0def0b5c7d2544ef776eb649e44bfbf&v=4
 
 # Build settings
 markdown: kramdown
@@ -47,24 +47,20 @@ links:
       key_trigger: 5
   section_2:
     - title: github
-      url: http://www.github.com/victorvoid
+      url: https://github.com/LucasESBS
       new_tab: true
       key_trigger: g
-    - title: twitter
-      url: http://www.twitter.com/victorvoid
-      key_trigger: t
     - title: search
       url: ""
       key_trigger: s #WARNING: search only works with "s"
 
 # projects in header index
 projects:
-  - name: fluany
-    url: https://github.com/fluany/fluany
-  - name: vim-frontend
-    url: https://github.com/victorvoid/vim-frontend
-  - name: generator-capybara
-    url: https://github.com/victorvoid/generator-capybara 
+  - name: vega, a VAE enhanced by gene annotations
+    url: https://github.com/LucasESBS/vega
+  - name: louvainpy, Louvain algorithm in Numpy
+    url: https://github.com/LucasESBS/louvainpy
+
 
 # exclude my node related stuff
 exclude: ['package.json', 'src', 'node_modules']

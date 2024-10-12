@@ -6,20 +6,18 @@
         </div>
 
         <h1>
-            <span class="site-title">[{{site.username}}]</span>
+            <span class="site-title">[{{site.username}}]</span><span class="blinking-cursor">&gt;</span>
         </h1>
+
+        <!-- Add a description block here -->
+        <p class="site-description">
+            Hello! I'm Lucas, a Machine Learning Scientist currently working at NewLimit.<br> 
+            I build models to predict the outcome of perturbations on cell state.
+        </p>
 
         <div class="icons-home">
             <a aria-label="Send email" title="Send me a e-mail" href="mailto:{{site.email}}">
                 <svg class="icon icon-email"><use xlink:href="#icon-email"></use></svg>
-            </a>
-
-            <a aria-label="My Twitter" title="Follow me on Twitter" target="_blank" href="https://twitter.com/{{site.twitter_username}}">
-                <svg class="icon icon-twitter"><use xlink:href="#icon-twitter"></use></svg>
-            </a>
-
-            <a aria-label="My Discord" title="Join my discord" target="_blank" href="https://discord.gg/{{site.discord_invite}}">
-                <svg class="icon icon-discord"><use xlink:href="#icon-discord"></use></svg>
             </a>
 
             <a aria-label="My Github" title="Show my projects" target="_blank" href="https://github.com/{{site.github_username}}">
@@ -30,8 +28,8 @@
                 <svg class="icon icon-linkedin"><use xlink:href="#icon-linkedin"></use></svg>
             </a>
 
-            <a aria-label="Use the RSS to get updated" title="Register for my RSS" target="_blank" href="{{ "/feed.xml" | prepend: site.baseurl }}">
-                <svg class="icon icon-rss"><use xlink:href="#icon-rss"></use></svg>
+            <a aria-label="My Google Scholar" title="View my publications" target="_blank" href="https://scholar.google.com/citations?user=YOUR_GOOGLE_SCHOLAR_ID">
+                <svg xmlns="http://www.w3.org/2000/svg" height="32px" viewBox="0 -960 960 960" width="32px" fill="#e8eaed"><path d="M480-120 200-272v-240L40-600l440-240 440 240v320h-80v-276l-80 44v240L480-120Zm0-332 274-148-274-148-274 148 274 148Zm0 241 200-108v-151L480-360 280-470v151l200 108Zm0-241Zm0 90Zm0 0Z"/></svg>
             </a>
         </div>
 
