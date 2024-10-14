@@ -5,9 +5,19 @@
             <img alt="My photo" src="{{site.profile_picture}}">
         </div>
 
+        <!-- <h1>
+            <span class="site-title">[{{site.username}}]</span><span class="static-cursor">&gt;</span><span class="blinking-cursor">_</span>
+        </h1> -->
+
         <h1>
-            <span class="site-title">[{{site.username}}]</span><span class="blinking-cursor">&gt;</span>
+            <span class="static-cursor">&gt;</span><span id="typed-username" class="site-title"></span><span class="blinking-cursor">_</span>
         </h1>
+
+        <!-- Hidden div to store the username as a data attribute -->
+        <div id="user-data" data-username="[{{ site.username }}]"></div>
+        
+        <!-- Link to the external JavaScript file -->
+        <script src="../src/js/type_header.js" defer></script>
 
         <!-- Add a description block here -->
         <p class="site-description">
